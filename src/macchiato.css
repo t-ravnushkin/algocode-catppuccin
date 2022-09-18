@@ -1,0 +1,234 @@
+body {
+    background: #1e2030;
+    color: #cad3f5;
+    box-shadow: none !important;
+    padding-left: 0 !important;
+}
+
+#container {
+    background: #24273a;
+    /* box-shadow: rgba(154, 154, 154, 1) 0px 0px 70px 5px; */
+    box-shadow: none !important;
+    border: none;
+}
+
+#probNavTaskArea pre {
+    /* color: #555555; */
+    background: #1e2030;
+    padding: 7px 10px;
+    border: none !important;
+    color: #f5a97f;
+    border-radius: 5px !important;
+}
+
+h4 {
+    color: #b8c0e0;
+}
+
+.nProbEmpty {
+    background: #363a4f !important;
+    /* border-bottom: 1px solid black !important; */
+    /* border-left: 1px solid black !important; */
+    /* border-right: 1px solid black !important; */
+    /* color: #b8c0e0 !important; */
+}
+
+td#probNavTaskArea {
+    border: none;
+    background: none;
+    /* border-bottom: 1px solid rgb(194, 194, 194); */
+    box-shadow: none;
+    border-top: none;
+}
+
+.info-table-line {
+    margin: 20px 0 5px 0;
+    border-collapse: collapse;
+    box-shadow: none !important;
+}
+
+.info-table-line td {
+    background: #363a4f !important;
+    padding: 6px 15px;
+}
+
+a {
+    color: #f4dbd6;
+}
+
+.table td {
+    /* border: 1px solid rgb(151, 151, 151); */
+    background: #363a4f !important;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.table {
+    margin: 10px 0 20px 0;
+    border-collapse: collapse;
+    box-shadow: none !important;
+    font-size: 14px;
+}
+
+.table th,
+.table .th,
+table.standings th {
+    /* background: rgb(185,211,232); */
+    /* background: -moz-linear-gradient(top, rgba(185,211,232,1) 0%, rgba(118,178,228,1) 4%, rgba(122,184,234,1) 33%, rgba(106,154,201,1) 100%); */
+    /* background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(185,211,232,1)), color-stop(4%,rgba(118,178,228,1)), color-stop(33%,rgba(122,184,234,1)), color-stop(100%,rgba(106,154,201,1))); */
+    /* background: -webkit-linear-gradient(top, rgba(185,211,232,1) 0%,rgba(118,178,228,1) 4%,rgba(122,184,234,1) 33%,rgba(106,154,201,1) 100%); */
+    /* background: -o-linear-gradient(top, rgba(185,211,232,1) 0%,rgba(118,178,228,1) 4%,rgba(122,184,234,1) 33%,rgba(106,154,201,1) 100%); */
+    /* background: -ms-linear-gradient(top, rgba(185,211,232,1) 0%,rgba(118,178,228,1) 4%,rgba(122,184,234,1) 33%,rgba(106,154,201,1) 100%); */
+    background: #363a4f !important;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b9d3e8', endColorstr='#6a9ac9', GradientType=0);
+    color: #cad3f5;
+    border: 1px solid black;
+    text-shadow: none;
+    font-weight: bold;
+}
+
+#nTopNavSelected div.nProbCurrent {
+    /* background: rgb(209, 209, 209); */
+    /* background: rgb(215,233,243); */
+    /* background: -moz-linear-gradient(top, rgba(215,233,243,1) 0%, rgba(131,196,249,1) 4%, rgba(123,184,225,1) 66%, rgba(120,180,220,1) 100%); */
+    /* background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(215,233,243,1)), color-stop(4%,rgba(131,196,249,1)), color-stop(66%,rgba(123,184,225,1)), color-stop(100%,rgba(120,180,220,1))); */
+    /* background: -webkit-linear-gradient(top, rgba(215,233,243,1) 0%,rgba(131,196,249,1) 4%,rgba(123,184,225,1) 66%,rgba(120,180,220,1) 100%); */
+    /* background: -o-linear-gradient(top, rgba(215,233,243,1) 0%,rgba(131,196,249,1) 4%,rgba(123,184,225,1) 66%,rgba(120,180,220,1) 100%); */
+    /* background: -ms-linear-gradient(top, rgba(215,233,243,1) 0%,rgba(131,196,249,1) 4%,rgba(123,184,225,1) 66%,rgba(120,180,220,1) 100%); */
+    background: linear-gradient(to bottom, rgba(215, 233, 243, 1) 0%, rgba(131, 196, 249, 1) 4%, rgba(123, 184, 225, 1) 66%, rgba(120, 180, 220, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d7e9f3', endColorstr='#78b4dc', GradientType=0);
+    padding-top: 15px;
+    border: none !important;
+    /* border-radius: 5px !important; */
+    /* margin-top: 5px !important; */
+}
+
+.nProbCurrent {
+    background: #5b6078 !important;
+    border: none !important;
+    border-radius: 5px !important;
+}
+
+.nProbOk {
+    background: #a6da95 !important;
+    border: none !important;
+    border-radius: 5px !important;
+}
+
+.nProbBad{
+    background: #ed8796 !important;
+    border: none !important;
+    border-radius: 5px !important;
+}
+
+.nProbTrans{
+    background:#eed49f !important;
+    border: none !important;
+    border-radius: 5px !important;
+}
+
+.nProbEmpty {
+    border: none !important;
+    border-radius: 5px !important;
+}
+
+.nTopNavList {
+    margin-bottom: -40px !important;
+}
+
+.nTopNavList li.first-rad .nProbEmpty,
+.nTopNavList li.first-rad .nProbCurrent,
+.nTopNavList li.first-rad .nProbBad,
+.nTopNavList li.first-rad .nProbOk,
+.nTopNavList li.first-rad .nProbTrans{
+    border-radius: 5px !important;
+    border: none !important;
+    margin-left: 13px !important;
+}
+
+.nProbCurrent a {
+    color: #f0c6c6 !important;
+}
+
+.nProbEmpty a {
+    color: white !important;
+}
+
+.nProbOk a {
+    color: #181926 !important;
+}
+
+.nProbBad a {
+    color: #181926 !important;
+}
+
+.nProbTrans a {
+    color: #181926 !important;
+}
+
+.nProbCurrent a {
+    color: #cad3f5 !important;
+}
+
+#l12-col {
+    background: #494d64;
+    padding-left: 50px;
+}
+
+.server_status_on {
+    background: #494d64 !important;
+    border: none !important;
+    text-shadow: none !important;
+    box-shadow: none !important;
+    padding-bottom: 10px !important;
+    color: #cad3f5 !important;
+    margin-bottom: 50px !important;
+}
+
+.server_status_alarm {
+    background: #eed49f !important;
+    border: none !important;
+    text-shadow: none !important;
+    box-shadow: none !important;
+    padding-bottom: 10px !important;
+    color: white !important;
+    margin-bottom: 50px !important;
+}
+
+#main-menu {
+    background: #5b6078;
+    box-shadow: none;
+    border: none;
+    border-radius: 4px;
+    padding-bottom: 5px;
+}
+
+input[type=file] {
+    background-color: #24273a !important;
+    border-radius: 5px;
+    color: #f4dbd6;
+}
+
+input[type=submit] {
+    background: #f4dbd6 !important;
+    border: none !important;
+    border-radius: 5px;
+    font-weight: 1000;
+}
+
+#main-cont {
+    padding: 0;
+}
+
+select {
+    font-family: "Roboto-Regular", "Verdana", "Arial";
+    font-weight: normal;
+    font-size: 9px;
+    padding: 0px 0px 0px 0px;
+    background: #f4dbd6;
+    border-radius: 5px;
+}
+
+img {
+    border-radius: 5px !important;
+}
