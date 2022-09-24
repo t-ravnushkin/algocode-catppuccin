@@ -5,6 +5,12 @@
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
 </h3>
 
+<p align="center">
+	<img src="assets/Screenshot from 2022-09-24 10-16-55.png"/>
+	<img src="assets/Screenshot from 2022-09-24 10-18-11.png"/>
+	<img src="assets/Screenshot from 2022-09-24 10-18-26.png"/>
+</p>
+
 ## Usage
 
 1. Install Stylus extension for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/), [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) or [Opera](https://addons.opera.com/en-gb/extensions/details/stylus/)
