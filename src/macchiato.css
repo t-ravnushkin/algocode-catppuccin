@@ -27,6 +27,7 @@ h4 {
 
 .nProbEmpty {
     background: #363a4f !important;
+    box-shadow: none !important;
     /* border-bottom: 1px solid black !important; */
     /* border-left: 1px solid black !important; */
     /* border-right: 1px solid black !important; */
@@ -57,8 +58,15 @@ a {
 }
 
 .table td {
-    /* border: 1px solid rgb(151, 151, 151); */
-    background: #363a4f !important;
+    border: 1px solid #494d64 !important;
+    background: #1e2030 !important;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+table.standings td {
+    border: 1px solid #494d64 !important;
+    background: #1e2030 !important;
     padding-top: 4px;
     padding-bottom: 4px;
 }
@@ -81,10 +89,14 @@ table.standings th {
     /* background: -ms-linear-gradient(top, rgba(185,211,232,1) 0%,rgba(118,178,228,1) 4%,rgba(122,184,234,1) 33%,rgba(106,154,201,1) 100%); */
     background: #363a4f !important;
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b9d3e8', endColorstr='#6a9ac9', GradientType=0);
-    color: #cad3f5;
-    border: 1px solid black;
+    color: #cad3f5 !important;
+    border: 1px solid #494d64 !important;
     text-shadow: none;
     font-weight: bold;
+}
+
+table.standings {
+    box-shadow: none !important;
 }
 
 #nTopNavSelected div.nProbCurrent {
@@ -143,7 +155,11 @@ table.standings th {
 .nTopNavList li.first-rad .nProbTrans{
     border-radius: 5px !important;
     border: none !important;
-    margin-left: 13px !important;
+    margin-left: 20px !important;
+}
+
+li#nTopNavSelected:first-child .nProbCurrent {
+    margin-left: 20px !important;
 }
 
 .nProbCurrent a {
@@ -231,4 +247,26 @@ select {
 
 img {
     border-radius: 5px !important;
+}
+
+.nBottomNavList li a, .nTopNavList li a, A.tab:visited {
+	color: #f0c6c6;
+	text-shadow: white 0 0 2px;
+	padding-top: 10px;
+}
+
+td.b1 A.tab {
+    color: #f0c6c6 !important;
+}
+
+div.h2-long {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+div.h2-long h2 {
+    background: #a6da95;
+    color: #181926 !important;
+    border-radius: 5px;
+    margin-left: 0 !important;
 }
