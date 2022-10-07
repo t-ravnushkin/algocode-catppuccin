@@ -199,7 +199,7 @@ li#nTopNavSelected:first-child .nProbCurrent {
 }
 
 .nProbEmpty a {
-    color: white !important;
+    color: var(--text) !important;
 }
 
 .nProbOk a {
@@ -239,7 +239,7 @@ li#nTopNavSelected:first-child .nProbCurrent {
     text-shadow: none !important;
     box-shadow: none !important;
     padding-bottom: 10px !important;
-    color: white !important;
+    color: var(--text) !important;
     margin-bottom: 50px !important;
 }
 
@@ -249,6 +249,10 @@ li#nTopNavSelected:first-child .nProbCurrent {
     border: none;
     border-radius: 4px;
     padding-bottom: 5px;
+}
+
+#main-menu ul li a {
+    color: var(--text) !important;
 }
 
 input[type=file] {
@@ -275,6 +279,7 @@ select {
     padding: 0px 0px 0px 0px;
     background: var(--rosewater);
     border-radius: 5px;
+    border: none !important;
 }
 
 img {
@@ -285,7 +290,7 @@ img {
 .nTopNavList li a,
 A.tab:visited {
     color: var(--flamingo);
-    text-shadow: white 0 0 2px;
+    text-shadow: none !important;
     padding-top: 10px;
 }
 
@@ -303,4 +308,8 @@ div.h2-long h2 {
     color: var(--crust) !important;
     border-radius: 5px;
     margin-left: 0 !important;
+}
+
+div.main_phrase {
+    color: var(--text) !important;
 }
