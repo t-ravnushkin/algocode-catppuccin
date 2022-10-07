@@ -313,3 +313,27 @@ div.h2-long h2 {
 div.main_phrase {
     color: var(--text) !important;
 }
+
+table.line-table-wb:first-of-type {
+    border-radius: 5px !important;
+    background: var(--mantle);
+}
+
+.line-table-wb tr {
+    border-bottom: 2px solid var(--base);
+}
+
+.line-table-wb tr:last-child {
+    border-bottom: none;
+}
+
+.line-table-wb tr td {
+    padding-left: 10px;
+    border-right: 2px solid var(--base);
+}
+
+.line-table-wb tr td:last-child {
+    border-right: none;
+    color: var(--mauve);
+    font-weight: bolder;
+}
