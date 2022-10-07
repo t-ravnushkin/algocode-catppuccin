@@ -337,3 +337,19 @@ table.line-table-wb:first-of-type {
     color: var(--mauve);
     font-weight: bolder;
 }
+
+div#statusLine {
+    padding-left: 20px;
+}
+
+div#l11 {
+    padding-left: 20px;
+}
+
+div#l12-col {
+    padding-left: 20px;
+}
+
+div#footer {
+    padding-left: 20px;
+}
