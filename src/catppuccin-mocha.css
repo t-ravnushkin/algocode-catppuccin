@@ -354,20 +354,21 @@ div#footer {
 textarea {
   background: var(--mantle);
   border: medium none !important;
-
-select {
-    font-family: "Roboto-Regular", "Verdana", "Arial";
-    font-weight: normal;
-    font-size: 13px;
-    padding: 2px;
-    background: var(--mantle);
-    border-radius: 5px;
-  border: none !important;
-  color: var(--rosewater);
-}
-
   background: var(--mantle);
   border-radius: 5px;
   border: none !important;
   color: var(--rosewater);
+}
+
+select {
+	font-family: "Roboto-Regular", "Verdana", "Arial";
+	font-weight: normal;
+	font-size: 9px;
+	padding: 0px 0px 0px 0px;
+	background: var(--mantle);
+	border-radius: 5px;
+	border: none !important;
+	color: var(--rosewater);
+	font-size: 13px;
+	height: 20px;
 }
