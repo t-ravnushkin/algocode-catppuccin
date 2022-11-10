@@ -359,3 +359,13 @@ div#l12-col {
 div#footer {
     padding-left: 20px;
 }
+
+textarea {
+	background: var(--mantle);
+	border: medium none !important;
+	border-radius: 5px;
+	width: 458px;
+	height: 327px;
+	color: var(--flamingo) !important;
+	padding: 10px;
+}
