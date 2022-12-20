@@ -1,7 +1,7 @@
-@import url('https://unpkg.com/@catppuccin/palette@0.1.4/css/catppuccin.css');
+@import url("https://unpkg.com/@catppuccin/palette@0.1.4/css/catppuccin.css");
 
 :root {
-    --rosewater: var(--ctp-mocha-rosewater);
+  --rosewater: var(--ctp-mocha-rosewater);
   --flamingo: var(--ctp-mocha-flamingo);
   --pink: var(--ctp-mocha-pink);
   --mauve: var(--ctp-mocha-mauve);
@@ -44,7 +44,7 @@ body {
   border: none;
 }
 
-#probnavtaskarea pre {
+#probNavTaskArea pre {
   /* color: #555555; */
   background: var(--mantle);
   padding: 7px 10px;
@@ -57,7 +57,7 @@ h4 {
   color: var(--subtext1);
 }
 
-.nprobempty {
+.nProbEmpty {
   background: var(--surface0) !important;
   box-shadow: none !important;
   /* border-bottom: 1px solid black !important; */
@@ -66,7 +66,7 @@ h4 {
   /* color: var(--subtext1) !important; */
 }
 
-td#probnavtaskarea {
+td#probNavTaskArea {
   border: none;
   background: none;
   /* border-bottom: 1px solid rgb(194, 194, 194); */
@@ -120,7 +120,7 @@ table.standings th {
   /* background: -o-linear-gradient(top, rgba(185,211,232,1) 0%,rgba(118,178,228,1) 4%,rgba(122,184,234,1) 33%,rgba(106,154,201,1) 100%); */
   /* background: -ms-linear-gradient(top, rgba(185,211,232,1) 0%,rgba(118,178,228,1) 4%,rgba(122,184,234,1) 33%,rgba(106,154,201,1) 100%); */
   background: var(--surface0) !important;
-  filter: progid:dximagetransform.microsoft.gradient(startcolorstr='#b9d3e8', endcolorstr='#6a9ac9', gradienttype=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b9d3e8', endColorstr='#6a9ac9', GradientType=0);
   color: var(--text) !important;
   border: 1px solid var(--surface1) !important;
   text-shadow: none;
@@ -131,7 +131,7 @@ table.standings {
   box-shadow: none !important;
 }
 
-#ntopnavselected div.nprobcurrent {
+#nTopNavSelected div.nProbCurrent {
   /* background: rgb(209, 209, 209); */
   /* background: rgb(215,233,243); */
   /* background: -moz-linear-gradient(top, rgba(215,233,243,1) 0%, rgba(131,196,249,1) 4%, rgba(123,184,225,1) 66%, rgba(120,180,220,1) 100%); */
@@ -146,81 +146,81 @@ table.standings {
     rgba(123, 184, 225, 1) 66%,
     rgba(120, 180, 220, 1) 100%
   );
-  filter: progid:dximagetransform.microsoft.gradient(startcolorstr='#d7e9f3', endcolorstr='#78b4dc', gradienttype=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d7e9f3', endColorstr='#78b4dc', GradientType=0);
   padding-top: 15px;
   border: none !important;
   /* border-radius: 5px !important; */
   /* margin-top: 5px !important; */
 }
 
-.nprobcurrent {
+.nProbCurrent {
   background: var(--surface2) !important;
   border: none !important;
   border-radius: 5px !important;
 }
 
-.nprobok {
+.nProbOk {
   background: var(--green) !important;
   border: none !important;
   border-radius: 5px !important;
 }
 
-.nprobbad {
+.nProbBad {
   background: var(--red) !important;
   border: none !important;
   border-radius: 5px !important;
 }
 
-.nprobtrans {
+.nProbTrans {
   background: var(--yellow) !important;
   border: none !important;
   border-radius: 5px !important;
 }
 
-.nprobempty {
+.nProbEmpty {
   border: none !important;
   border-radius: 5px !important;
 }
 
-.ntopnavlist {
+.nTopNavList {
   margin-bottom: -40px !important;
 }
 
-.ntopnavlist li.first-rad .nprobempty,
-.ntopnavlist li.first-rad .nprobcurrent,
-.ntopnavlist li.first-rad .nprobbad,
-.ntopnavlist li.first-rad .nprobok,
-.ntopnavlist li.first-rad .nprobtrans {
+.nTopNavList li.first-rad .nProbEmpty,
+.nTopNavList li.first-rad .nProbCurrent,
+.nTopNavList li.first-rad .nProbBad,
+.nTopNavList li.first-rad .nProbOk,
+.nTopNavList li.first-rad .nProbTrans {
   border-radius: 5px !important;
   border: none !important;
   margin-left: 20px !important;
 }
 
-li#ntopnavselected:first-child .nprobcurrent {
+li#nTopNavSelected:first-child .nProbCurrent {
   margin-left: 20px !important;
 }
 
-.nprobcurrent a {
+.nProbCurrent a {
   color: var(--flamingo) !important;
 }
 
-.nprobempty a {
+.nProbEmpty a {
   color: var(--text) !important;
 }
 
-.nprobok a {
+.nProbOk a {
   color: var(--crust) !important;
 }
 
-.nprobbad a {
+.nProbBad a {
   color: var(--crust) !important;
 }
 
-.nprobtrans a {
+.nProbTrans a {
   color: var(--crust) !important;
 }
 
-.nprobcurrent a {
+.nProbCurrent a {
   color: var(--text) !important;
 }
 
@@ -283,15 +283,15 @@ img {
   border-radius: 5px !important;
 }
 
-.nbottomnavlist li a,
-.ntopnavlist li a,
-a.tab:visited {
+.nBottomNavList li a,
+.nTopNavList li a,
+A.tab:visited {
   color: var(--flamingo);
   text-shadow: none !important;
   padding-top: 10px;
 }
 
-td.b1 a.tab {
+td.b1 A.tab {
   color: var(--flamingo) !important;
 }
 
@@ -354,21 +354,21 @@ div#footer {
 textarea {
   background: var(--mantle);
   border: medium none !important;
+  border-radius: 5px;
+  width: 458px;
+  height: 327px;
+  color: var(--flamingo) !important;
+  padding: 10px;
+}
+
+select {
+  font-family: "Roboto-Regular", "Verdana", "Arial";
+  font-weight: normal;
+  font-size: 13px;
+  padding: 2px;
   background: var(--mantle);
   border-radius: 5px;
   border: none !important;
   color: var(--rosewater);
 }
 
-select {
-	font-family: "Roboto-Regular", "Verdana", "Arial";
-	font-weight: normal;
-	font-size: 9px;
-	padding: 0px 0px 0px 0px;
-	background: var(--mantle);
-	border-radius: 5px;
-	border: none !important;
-	color: var(--rosewater);
-	font-size: 13px;
-	height: 20px;
-}
