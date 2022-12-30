@@ -1,5 +1,6 @@
-@import url("https://unpkg.com/@catppuccin/palette@0.1.4/css/catppuccin.css");
 
+
+@import url("https://unpkg.com/@catppuccin/palette@0.1.4/css/catppuccin.css");
 :root {
   --rosewater: var(--ctp-macchiato-rosewater);
   --flamingo: var(--ctp-macchiato-flamingo);
@@ -74,6 +75,19 @@ td#probNavTaskArea {
   border-top: none;
 }
 
+#main-menu ul li.current {
+  background-color: var(--peach) !important;
+  color: var(--crust) !important;
+  border-bottom: none;
+  border-radius: 5px;
+
+}
+
+#main-menu ul li{
+  border-radius: 5px !important;
+
+}
+
 .info-table-line {
   margin: 20px 0 5px 0;
   border-collapse: collapse;
@@ -87,6 +101,12 @@ td#probNavTaskArea {
 
 a {
   color: var(--rosewater);
+  border-bottom-color: transparent;
+}
+
+a:hover{
+  color:var(--rosewater);
+  border-bottom-color: var(--rosewater);
 }
 
 .table td {
@@ -140,11 +160,11 @@ table.standings {
   /* background: -o-linear-gradient(top, rgba(215,233,243,1) 0%,rgba(131,196,249,1) 4%,rgba(123,184,225,1) 66%,rgba(120,180,220,1) 100%); */
   /* background: -ms-linear-gradient(top, rgba(215,233,243,1) 0%,rgba(131,196,249,1) 4%,rgba(123,184,225,1) 66%,rgba(120,180,220,1) 100%); */
   background: linear-gradient(
-    to bottom,
-    rgba(215, 233, 243, 1) 0%,
-    rgba(131, 196, 249, 1) 4%,
-    rgba(123, 184, 225, 1) 66%,
-    rgba(120, 180, 220, 1) 100%
+          to bottom,
+          rgba(215, 233, 243, 1) 0%,
+          rgba(131, 196, 249, 1) 4%,
+          rgba(123, 184, 225, 1) 66%,
+          rgba(120, 180, 220, 1) 100%
   );
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d7e9f3', endColorstr='#78b4dc', GradientType=0);
   padding-top: 15px;
