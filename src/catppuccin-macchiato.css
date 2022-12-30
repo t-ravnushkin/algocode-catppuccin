@@ -1,5 +1,66 @@
+@-moz-document domain("algocode.ru") {
 @import url("https://unpkg.com/@catppuccin/palette@0.1.4/css/catppuccin.css");
 
+  :root {
+    --rosewater: var(--ctp-macchiato-rosewater);
+    --flamingo: var(--ctp-macchiato-flamingo);
+    --pink: var(--ctp-macchiato-pink);
+    --mauve: var(--ctp-macchiato-mauve);
+    --red: var(--ctp-macchiato-red);
+    --maroon: var(--ctp-macchiato-maroon);
+    --peach: var(--ctp-macchiato-peach);
+    --yellow: var(--ctp-macchiato-yellow);
+    --green: var(--ctp-macchiato-green);
+    --teal: var(--ctp-macchiato-teal);
+    --sky: var(--ctp-macchiato-sky);
+    --sapphire: var(--ctp-macchiato-sapphire);
+    --blue: var(--ctp-macchiato-blue);
+    --lavender: var(--ctp-macchiato-lavender);
+    --text: var(--ctp-macchiato-text);
+    --subtext1: var(--ctp-macchiato-subtext1);
+    --subtext0: var(--ctp-macchiato-subtext0);
+    --overlay2: var(--ctp-macchiato-overlay2);
+    --overlay1: var(--ctp-macchiato-overlay1);
+    --overlay0: var(--ctp-macchiato-overlay0);
+    --surface2: var(--ctp-macchiato-surface2);
+    --surface1: var(--ctp-macchiato-surface1);
+    --surface0: var(--ctp-macchiato-surface0);
+    --base: var(--ctp-macchiato-base);
+    --mantle: var(--ctp-macchiato-mantle);
+    --crust: var(--ctp-macchiato-crust);
+  }
+  body {
+    background-color: var(--base);
+    color: var(--text);
+  }
+  a{
+    color: var(--flamingo);
+  }
+
+  a:hover{
+    border-bottom-color: var(--flamingo);
+  }
+
+  table{
+    background-color: var(--base);
+  }
+  td{
+    background-color: var(--base) !important;
+  }
+  .ok{
+    background-color: var(--green) !important;
+    color: var(--crust);
+  }
+  .bad{
+    background-color: var(--red) !important;
+    color: var(--crust);
+  }
+
+
+
+}
+
+@import url("https://unpkg.com/@catppuccin/palette@0.1.4/css/catppuccin.css");
 :root {
   --rosewater: var(--ctp-macchiato-rosewater);
   --flamingo: var(--ctp-macchiato-flamingo);
@@ -74,6 +135,19 @@ td#probNavTaskArea {
   border-top: none;
 }
 
+#main-menu ul li.current {
+  background-color: var(--peach) !important;
+  color: var(--crust) !important;
+  border-bottom: none;
+  border-radius: 5px;
+
+}
+
+#main-menu ul li{
+  border-radius: 5px !important;
+
+}
+
 .info-table-line {
   margin: 20px 0 5px 0;
   border-collapse: collapse;
@@ -87,6 +161,12 @@ td#probNavTaskArea {
 
 a {
   color: var(--rosewater);
+  border-bottom-color: transparent;
+}
+
+a:hover{
+  color:var(--rosewater);
+  border-bottom-color: var(--rosewater);
 }
 
 .table td {
@@ -140,11 +220,11 @@ table.standings {
   /* background: -o-linear-gradient(top, rgba(215,233,243,1) 0%,rgba(131,196,249,1) 4%,rgba(123,184,225,1) 66%,rgba(120,180,220,1) 100%); */
   /* background: -ms-linear-gradient(top, rgba(215,233,243,1) 0%,rgba(131,196,249,1) 4%,rgba(123,184,225,1) 66%,rgba(120,180,220,1) 100%); */
   background: linear-gradient(
-    to bottom,
-    rgba(215, 233, 243, 1) 0%,
-    rgba(131, 196, 249, 1) 4%,
-    rgba(123, 184, 225, 1) 66%,
-    rgba(120, 180, 220, 1) 100%
+          to bottom,
+          rgba(215, 233, 243, 1) 0%,
+          rgba(131, 196, 249, 1) 4%,
+          rgba(123, 184, 225, 1) 66%,
+          rgba(120, 180, 220, 1) 100%
   );
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d7e9f3', endColorstr='#78b4dc', GradientType=0);
   padding-top: 15px;
